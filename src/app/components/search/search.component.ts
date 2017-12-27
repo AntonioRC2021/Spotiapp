@@ -21,11 +21,8 @@ export class SearchComponent {
     }
 
     this._spotify.getArtistas( this.termino )
-          .subscribe( artistas => {
-            console.log('Informacion lista!');
-            console.log( artistas );
-          });
-  }
+          .subscribe();
+ }
 
 
 }
